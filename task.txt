@@ -1,0 +1,17 @@
+Creating REST API - JSON 
+
+GET route /users - list all users 
+GET /users/1 - Get the user with ID 1 - these ae dynamic path /1 we need these parameter dynamically
+GET /users/2 - Get the user with ID 2 
+
+Dynamic path paramters 
+GET /uses/:id
+:id -> variable | dynamic
+
+POST route /users - Create new use
+PATCH route /user/1 - Edit the user with id 1  
+DELETE route /users/1 - DELETE the user with ID 1
+// browsers by default do only GET request, post, patch and delete are problamtic situation
+
+// we dont have any database currently like mongo db - so hardcoding the data with help of mockaroo.com (generate fake data)
+for testing purpose 
